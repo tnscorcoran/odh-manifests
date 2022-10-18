@@ -21,13 +21,13 @@ data:
             memory: 2Gi
             cpu: 2
           limits:
-            memory: 4Gi
+            memory: 16Gi
             cpu: 3
       - name: Large
         resources:
           requests:
-            memory: 4Gi
+            memory: 16Gi
             cpu: 3
           limits:
-            memory: 8Gi
+            memory: 16Gi
             cpu: 3

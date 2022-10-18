@@ -36,7 +36,7 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 16Gi
       requests:
         cpu: "1"
         memory: 2Gi
@@ -79,7 +79,7 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 16Gi
       requests:
         cpu: "1"
         memory: 2Gi
@@ -117,7 +117,7 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 16Gi
       requests:
         cpu: "1"
         memory: 2Gi
@@ -155,7 +155,7 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 16Gi
       requests:
         cpu: "1"
         memory: 2Gi
@@ -193,7 +193,7 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 16Gi
       requests:
         cpu: "1"
         memory: 2Gi
@@ -231,7 +231,7 @@ items:
     resources:
       limits:
         cpu: "2"
-        memory: 4Gi
+        memory: 16Gi
       requests:
         cpu: "1"
         memory: 2Gi

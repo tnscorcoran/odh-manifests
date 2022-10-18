@@ -70,11 +70,11 @@ This parameter will configure the CPU limit for Hive Metastore. If not set, the 
 
 #### hive_metastore_memory_request=
 
-This parameter will configure the Memory request for Hive Metastore. If not set, the default value `4Gi` will be used instead.
+This parameter will configure the Memory request for Hive Metastore. If not set, the default value `16Gi` will be used instead.
 
 #### hive_metastore_memory_limit
 
-This parameter will configure the Memory limit for Hive Metastore. If not set, the default value `4Gi` will be used instead.
+This parameter will configure the Memory limit for Hive Metastore. If not set, the default value `16Gi` will be used instead.
 
 #### trino_cpu_request
 
@@ -86,8 +86,8 @@ This parameter will configure the CPU limit for all Trino nodes (coordinator and
 
 #### trino_memory_request
 
-This parameter will configure the Memory request for all Trino nodes (coordinator and workers). If not set, the default value `4Gi` will be used instead.
+This parameter will configure the Memory request for all Trino nodes (coordinator and workers). If not set, the default value `16Gi` will be used instead.
 
 #### trino_memory_limit
 
-This parameter will configure the Memory limit for all Trino nodes (coordinator and workers). If not set, the default value `4Gi` will be used instead.
+This parameter will configure the Memory limit for all Trino nodes (coordinator and workers). If not set, the default value `16Gi` will be used instead.

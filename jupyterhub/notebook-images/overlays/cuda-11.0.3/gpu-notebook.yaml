@@ -94,9 +94,9 @@ items:
       - type: ImageChange
     resources:
       limits:
-        memory: 4Gi
+        memory: 16Gi
       requests:
-        memory: 4Gi
+        memory: 16Gi
 - kind: BuildConfig
   apiVersion: build.openshift.io/v1
   metadata:
@@ -122,7 +122,7 @@ items:
       - type: ImageChange
     resources:
       limits:
-        memory: 8Gi
+        memory: 16Gi
       requests:
         memory: 6Gi
 - kind: BuildConfig
@@ -150,6 +150,6 @@ items:
       - type: ImageChange
     resources:
       limits:
-        memory: 8Gi
+        memory: 16Gi
       requests:
         memory: 6Gi
